@@ -6,10 +6,10 @@
 
 
 ## Hyperledger Explorer
-<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer-logo.png" alt="Hyperledger Explorer" width="100%" height="100%"/>
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer-logo.png" alt="Hyperledger Explorer" width="75%" height="75%"/>
 
 ## Spring Boot
-<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/spring-boot-logo.png" alt="Spring Boot" width="100%" height="100%"/>
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/spring-boot-logo.png" alt="Spring Boot" width="75%" height="75%"/>
 
 ## Prerequisites
 
@@ -49,13 +49,13 @@ docker-compose up -d
 
 > Url : http://localhost:8081/explorer
 
-<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png" alt="Fabric Explorer Home Page" width="100%" height="100%"/>
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png" alt="Fabric Explorer Home Page" width="75%" height="75%"/>
 
 > Url : http://localhost:8090
 > Username : admin
 > Password : adminpw
 
-<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer.png" alt="Hyperledger Explorer Home Page" width="100%" height="100%"/>
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer.png" alt="Hyperledger Explorer Home Page" width="75%" height="75%"/>
 
 ## Used Technologies
 
