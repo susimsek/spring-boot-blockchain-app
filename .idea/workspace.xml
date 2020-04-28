@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d5c25b-cea2-462e-92e8-8351f7c5f1de" name="Default Changelist" comment="" />
+    <list default="true" id="91d5c25b-cea2-462e-92e8-8351f7c5f1de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-blockchain-app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -33,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -48,7 +52,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -202,11 +206,25 @@
       <workItem from="1588094544366" duration="54000" />
       <workItem from="1588094632954" duration="334000" />
       <workItem from="1588094980904" duration="1062000" />
+      <workItem from="1588096049813" duration="113000" />
+      <workItem from="1588096174174" duration="6000" />
     </task>
+    <task id="LOCAL-00001" summary="add example">
+      <created>1588096109082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588096109082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add example" />
+    <option name="LAST_COMMIT_MESSAGE" value="add example" />
   </component>
   <component name="WindowStateProjectService">
     <state x="445" y="23" key="#NetworkGenerator_(1)" timestamp="1588085827626">
@@ -223,6 +241,10 @@
     </state>
     <state x="832" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1588017707368" />
     <state x="832" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.839@0.23.1440.839" timestamp="1588065067294" />
+    <state x="419" y="23" key="CommitChangelistDialog2" timestamp="1588096108688">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="419" y="23" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1588096108688" />
     <state width="1440" height="618" key="DebuggerActiveHint" timestamp="1588087492701">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
@@ -323,6 +345,18 @@
     <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.836@0.23.1440.836" timestamp="1588055740349" />
     <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1588069945284" />
     <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.838@0.23.1440.838" timestamp="1588065461238" />
+    <state x="443" y="82" key="SettingsEditor" timestamp="1588096124522">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="443" y="82" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1588096124522" />
+    <state x="619" y="179" key="Vcs.Push.Dialog.v2" timestamp="1588096110944">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="619" y="179" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1588096110944" />
+    <state x="805" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588096127531">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="805" y="360" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.838@0.23.1440.838" timestamp="1588096127531" />
     <state x="542" y="343" width="898" height="518" key="find.popup" timestamp="1588087548301">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
