@@ -1,6 +1,6 @@
 # Spring Boot Blockchain App
 > This is spring boot hyperledger fabric example.
-![Spring Boot Microservice](https://i.morioh.com/2019/10/23/b180f9cafa30.jpg)
+![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png?raw=true)
 ## Prerequisites
 
 * Jdk 1.8
@@ -47,7 +47,6 @@ docker-compose up -d
 
 ![Hyperledger Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperdger-explorer.png?raw=true)
 
-hyperdger-explorer.png
 
 ## Used Technologies
 
