@@ -2,9 +2,11 @@
 > This is spring boot hyperledger fabric example.
 
 ## Hyperledger Fabric
-{:refdef: style="width: 50%; height: 50%"}
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png" alt="Hyperledger Fabric" width="250"/>
+
+
 ![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png?raw=true)
-{: refdef}
+
 
 ## Hyperledger Explorer
 ![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer-logo.png?raw=true){:height="50%" width="50%"}
