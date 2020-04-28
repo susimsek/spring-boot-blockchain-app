@@ -49,14 +49,13 @@ docker-compose up -d
 
 > Url : http://localhost:8081/explorer
 
-![Fabric Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png?raw=true){:height="50%" width="50%"}
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png" alt="Fabric Explorer Home Page" width="100%" height="100%"/>
 
 > Url : http://localhost:8090
 > Username : admin
 > Password : adminpw
 
-![Hyperledger Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperdger-explorer.png?raw=true){:height="50%" width="50%"}
-
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer.png" alt="Hyperledger Explorer Home Page" width="100%" height="100%"/>
 
 ## Used Technologies
 
