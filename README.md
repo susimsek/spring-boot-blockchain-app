@@ -2,7 +2,7 @@
 > This is spring boot hyperledger fabric example.
 
 ## Hyperledger Fabric
-<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png" alt="Hyperledger Fabric" width="50%" height="50%"/>
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png" alt="Hyperledger Fabric" width="100%" height="100%"/>
 
 
 ![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png?raw=true)
