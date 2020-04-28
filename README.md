@@ -2,10 +2,13 @@
 > This is spring boot hyperledger fabric example.
 
 ## Hyperledger Fabric
-![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png?raw=true)
+![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-fabric-logo.png?raw=true){:height="50%" width="50%"}
 
 ## Hyperledger Explorer
 ![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer-logo.png?raw=true){:height="50%" width="50%"}
+
+## Spring Boot
+![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/spring-boot-logo.png?raw=true){:height="50%" width="50%"}
 
 ## Prerequisites
 
@@ -45,13 +48,13 @@ docker-compose up -d
 
 > Url : http://localhost:8081/explorer
 
-![Fabric Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png?raw=true)
+![Fabric Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/fabric-explorer.png?raw=true){:height="50%" width="50%"}
 
 > Url : http://localhost:8090
 > Username : admin
 > Password : adminpw
 
-![Hyperledger Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperdger-explorer.png?raw=true)
+![Hyperledger Explorer](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperdger-explorer.png?raw=true){:height="50%" width="50%"}
 
 
 ## Used Technologies
