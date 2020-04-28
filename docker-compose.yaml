@@ -1,0 +1,65 @@
+# SPDX-License-Identifier: Apache-2.0
+version: '2.1'
+
+services:
+  spring-boot-blockchain-app:
+    image: spring-boot-blockchain-app:0.0.1-SNAPSHOT
+    container_name: spring-boot-blockchain-app
+    restart: on-failure
+    environment:
+      NETWORK_FILE: network/connection-prod-Org1.yml
+    ports:
+      - 8081:8081
+    networks:
+      - first-network
+
+  explorerdb:
+    image: hyperledger/explorer-db:latest
+    container_name: explorerdb
+    hostname: explorerdb
+    environment:
+      - DATABASE_DATABASE=fabricexplorer
+      - DATABASE_USERNAME=hppoc
+      - DATABASE_PASSWORD=password
+    healthcheck:
+      test: "pg_isready -h localhost -p 5432 -q -U postgres"
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    #volumes:
+    #  - pgdata:/var/lib/postgresql/data
+    networks:
+      - first-network
+
+  explorer:
+    image: hyperledger/explorer:latest
+    container_name: explorer
+    hostname: explorer
+    depends_on:
+      explorerdb:
+        condition: service_healthy
+    environment:
+      - DATABASE_HOST=explorerdb
+      - DATABASE_DATABASE=fabricexplorer
+      - DATABASE_USERNAME=hppoc
+      - DATABASE_PASSWD=password
+      - LOG_LEVEL_APP=debug
+      - LOG_LEVEL_DB=debug
+      - LOG_LEVEL_CONSOLE=info
+      - LOG_CONSOLE_STDOUT=true
+      - DISCOVERY_AS_LOCALHOST=false
+    volumes:
+      - ./explorer/config.json:/opt/explorer/app/platform/fabric/config.json
+      - ./explorer/connection-profile:/opt/explorer/app/platform/fabric/connection-profile
+      - ./first-network/crypto-config:/tmp/crypto
+      # - ./data/walletstore:/opt/wallet
+    command: sh -c "node /opt/explorer/main.js && tail -f /dev/null"
+    ports:
+      - 8090:8080
+    networks:
+      - first-network
+
+networks:
+  first-network:
+    external:
+      name: first-network_byfn

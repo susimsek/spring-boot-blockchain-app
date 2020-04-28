@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="91d5c25b-cea2-462e-92e8-8351f7c5f1de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/spring-boot-blockchain-app" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1b7MCgFxt9XBVDXOJ3NNjhPHQIc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.18.1/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/network" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/spring/fabric/model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration name="NetworkGenerator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.fabric.network.NetworkGenerator" />
+      <module name="spring-boot-blockchain-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.fabric.network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ss" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.fabric.ss" />
+      <module name="spring-boot-blockchain-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.fabric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FabricApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-blockchain-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.fabric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.fabric.FabricApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FabricApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="fabric-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.fabric.FabricApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FabricApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-blockchain-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.fabric.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.fabric.FabricApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="removeVolumesOnComposeDown" value="true" />
+          <option name="commandLineOptions" value="--build" />
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="explorer.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="explorer.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ss" />
+      <item itemvalue="Application.NetworkGenerator (1)" />
+      <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="Docker.explorer.yaml: Compose Deployment" />
+      <item itemvalue="Spring Boot.FabricApplication" />
+      <item itemvalue="Spring Boot.FabricApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="Docker.explorer.yaml: Compose Deployment" />
+        <item itemvalue="Spring Boot.FabricApplication (1)" />
+        <item itemvalue="Application.NetworkGenerator (1)" />
+        <item itemvalue="Application.ss" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91d5c25b-cea2-462e-92e8-8351f7c5f1de" name="Default Changelist" comment="" />
+      <created>1587978552968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587978552968</updated>
+      <workItem from="1587978554417" duration="286000" />
+      <workItem from="1587978856340" duration="963000" />
+      <workItem from="1587981543215" duration="2576000" />
+      <workItem from="1587988132642" duration="5500000" />
+      <workItem from="1588008135932" duration="2811000" />
+      <workItem from="1588010970000" duration="9000" />
+      <workItem from="1588012101454" duration="156000" />
+      <workItem from="1588012271482" duration="16000" />
+      <workItem from="1588012305167" duration="237000" />
+      <workItem from="1588012557221" duration="405000" />
+      <workItem from="1588013023685" duration="582000" />
+      <workItem from="1588013628252" duration="153000" />
+      <workItem from="1588014013410" duration="3818000" />
+      <workItem from="1588017895635" duration="292000" />
+      <workItem from="1588050592754" duration="4701000" />
+      <workItem from="1588064327199" duration="5544000" />
+      <workItem from="1588084392817" duration="666000" />
+      <workItem from="1588085082341" duration="8062000" />
+      <workItem from="1588094544366" duration="54000" />
+      <workItem from="1588094632954" duration="334000" />
+      <workItem from="1588094980904" duration="1062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="23" key="#NetworkGenerator_(1)" timestamp="1588085827626">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="445" y="23" key="#NetworkGenerator_(1)/0.23.1440.838@0.23.1440.838" timestamp="1588085827626" />
+    <state x="239" y="104" width="1201" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588012807404">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="239" y="104" width="1201" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.837@0.23.1440.837" timestamp="1588012807404" />
+    <state x="369" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.840@0.23.1440.840" timestamp="1587992669975" />
+    <state x="832" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1588065067294">
+      <screen x="0" y="23" width="1440" height="839" />
+    </state>
+    <state x="832" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.837@0.23.1440.837" timestamp="1588017707368" />
+    <state x="832" y="152" key="#com.intellij.ide.util.MemberChooser/0.23.1440.839@0.23.1440.839" timestamp="1588065067294" />
+    <state width="1440" height="618" key="DebuggerActiveHint" timestamp="1588087492701">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1440" height="618" key="DebuggerActiveHint/0.23.1440.838@0.23.1440.838" timestamp="1588087492701" />
+    <state width="678" height="341" key="GridCell.Tab.0.bottom" timestamp="1588094003020">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587992266774" />
+    <state width="678" height="263" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1588055740347" />
+    <state width="678" height="263" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1588069945282" />
+    <state width="678" height="341" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1588094003020" />
+    <state width="678" height="263" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1588065236501" />
+    <state width="678" height="240" key="GridCell.Tab.0.bottom/0.23.1440.840@0.23.1440.840" timestamp="1587992427123" />
+    <state width="678" height="341" key="GridCell.Tab.0.center" timestamp="1588094003019">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587992266773" />
+    <state width="678" height="263" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1588055740347" />
+    <state width="678" height="263" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1588069945281" />
+    <state width="678" height="341" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1588094003019" />
+    <state width="678" height="263" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1588065236500" />
+    <state width="678" height="240" key="GridCell.Tab.0.center/0.23.1440.840@0.23.1440.840" timestamp="1587992427122" />
+    <state width="678" height="341" key="GridCell.Tab.0.left" timestamp="1588094003019">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587992266772" />
+    <state width="678" height="263" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1588055740346" />
+    <state width="678" height="263" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1588069945280" />
+    <state width="678" height="341" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1588094003019" />
+    <state width="678" height="263" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1588065236500" />
+    <state width="678" height="240" key="GridCell.Tab.0.left/0.23.1440.840@0.23.1440.840" timestamp="1587992427122" />
+    <state width="678" height="341" key="GridCell.Tab.0.right" timestamp="1588094003020">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587992266773" />
+    <state width="678" height="263" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1588055740347" />
+    <state width="678" height="263" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1588069945281" />
+    <state width="678" height="341" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1588094003020" />
+    <state width="678" height="263" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1588065236500" />
+    <state width="678" height="240" key="GridCell.Tab.0.right/0.23.1440.840@0.23.1440.840" timestamp="1587992427122" />
+    <state width="678" height="341" key="GridCell.Tab.1.bottom" timestamp="1588094003021">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587992266776" />
+    <state width="678" height="263" key="GridCell.Tab.1.bottom/0.23.1440.836@0.23.1440.836" timestamp="1588055740348" />
+    <state width="678" height="263" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1588069945283" />
+    <state width="678" height="341" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1588094003021" />
+    <state width="678" height="223" key="GridCell.Tab.1.bottom/0.23.1440.839@0.23.1440.839" timestamp="1588064394533" />
+    <state width="678" height="240" key="GridCell.Tab.1.bottom/0.23.1440.840@0.23.1440.840" timestamp="1587992427123" />
+    <state width="678" height="341" key="GridCell.Tab.1.center" timestamp="1588094003020">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587992266775" />
+    <state width="678" height="263" key="GridCell.Tab.1.center/0.23.1440.836@0.23.1440.836" timestamp="1588055740348" />
+    <state width="678" height="263" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1588069945282" />
+    <state width="678" height="341" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1588094003020" />
+    <state width="678" height="223" key="GridCell.Tab.1.center/0.23.1440.839@0.23.1440.839" timestamp="1588064394532" />
+    <state width="678" height="240" key="GridCell.Tab.1.center/0.23.1440.840@0.23.1440.840" timestamp="1587992427123" />
+    <state width="678" height="341" key="GridCell.Tab.1.left" timestamp="1588094003020">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587992266774" />
+    <state width="678" height="263" key="GridCell.Tab.1.left/0.23.1440.836@0.23.1440.836" timestamp="1588055740348" />
+    <state width="678" height="263" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1588069945282" />
+    <state width="678" height="341" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1588094003020" />
+    <state width="678" height="223" key="GridCell.Tab.1.left/0.23.1440.839@0.23.1440.839" timestamp="1588064394532" />
+    <state width="678" height="240" key="GridCell.Tab.1.left/0.23.1440.840@0.23.1440.840" timestamp="1587992427123" />
+    <state width="678" height="341" key="GridCell.Tab.1.right" timestamp="1588094003020">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state width="1398" height="240" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587992266775" />
+    <state width="678" height="263" key="GridCell.Tab.1.right/0.23.1440.836@0.23.1440.836" timestamp="1588055740348" />
+    <state width="678" height="263" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1588069945283" />
+    <state width="678" height="341" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1588094003020" />
+    <state width="678" height="223" key="GridCell.Tab.1.right/0.23.1440.839@0.23.1440.839" timestamp="1588064394532" />
+    <state width="678" height="240" key="GridCell.Tab.1.right/0.23.1440.840@0.23.1440.840" timestamp="1587992427123" />
+    <state width="678" height="263" key="GridCell.Tab.2.bottom" timestamp="1588069945284">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="678" height="263" key="GridCell.Tab.2.bottom/0.23.1440.836@0.23.1440.836" timestamp="1588055740349" />
+    <state width="678" height="263" key="GridCell.Tab.2.bottom/0.23.1440.837@0.23.1440.837" timestamp="1588069945284" />
+    <state width="678" height="263" key="GridCell.Tab.2.bottom/0.23.1440.838@0.23.1440.838" timestamp="1588065461238" />
+    <state width="678" height="263" key="GridCell.Tab.2.center" timestamp="1588069945283">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="678" height="263" key="GridCell.Tab.2.center/0.23.1440.836@0.23.1440.836" timestamp="1588055740349" />
+    <state width="678" height="263" key="GridCell.Tab.2.center/0.23.1440.837@0.23.1440.837" timestamp="1588069945283" />
+    <state width="678" height="263" key="GridCell.Tab.2.center/0.23.1440.838@0.23.1440.838" timestamp="1588065461238" />
+    <state width="678" height="263" key="GridCell.Tab.2.left" timestamp="1588069945283">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="678" height="263" key="GridCell.Tab.2.left/0.23.1440.836@0.23.1440.836" timestamp="1588055740348" />
+    <state width="678" height="263" key="GridCell.Tab.2.left/0.23.1440.837@0.23.1440.837" timestamp="1588069945283" />
+    <state width="678" height="263" key="GridCell.Tab.2.left/0.23.1440.838@0.23.1440.838" timestamp="1588065461238" />
+    <state width="678" height="263" key="GridCell.Tab.2.right" timestamp="1588069945284">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.836@0.23.1440.836" timestamp="1588055740349" />
+    <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.837@0.23.1440.837" timestamp="1588069945284" />
+    <state width="678" height="263" key="GridCell.Tab.2.right/0.23.1440.838@0.23.1440.838" timestamp="1588065461238" />
+    <state x="542" y="343" width="898" height="518" key="find.popup" timestamp="1588087548301">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="542" y="343" width="898" height="518" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1588087548301" />
+    <state x="559" y="200" width="670" height="675" key="run.anything.popup" timestamp="1587978686765">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="559" y="200" width="670" height="675" key="run.anything.popup/0.23.1440.837@0.23.1440.837" timestamp="1587978686765" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/controller/ProductController.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/controller/ProductController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/repository/impl/ProductRepositoryImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/controller/ProductController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/controller/ProductController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/network/NetworkBuilder.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/network/NetworkBuilder.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/network/NetworkBuilder.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring/fabric/network/NetworkBuilder.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
