@@ -9,7 +9,7 @@
 <img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/hyperledger-explorer-logo.png" alt="Hyperledger Explorer" width="100%" height="100%"/>
 
 ## Spring Boot
-![Hyperledger Fabric](https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/spring-boot-logo.png?raw=true){:height="50%" width="50%"}
+<img src="https://github.com/susimsek/spring-boot-blockchain-app/blob/master/images/spring-boot-logo.png" alt="Spring Boot" width="100%" height="100%"/>
 
 ## Prerequisites
 
