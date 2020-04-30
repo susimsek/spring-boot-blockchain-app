@@ -1,15 +1,14 @@
 package com.spring.fabric.service;
 
-
-import com.spring.fabric.model.Product;
+import com.spring.fabric.dto.ProductDTO;
 
 public interface ProductService {
 
-    Product get(String id);
+    ProductDTO get(String id);
 
-    Product create(Product product);
+    ProductDTO create(ProductDTO productDTO);
 
-    Product update(String id,Product product);
+    ProductDTO update(String id,ProductDTO productDTO);
 
     void delete(String id);
 

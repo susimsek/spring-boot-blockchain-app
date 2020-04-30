@@ -1,9 +1,11 @@
 package com.spring.fabric.service.impl;
 
+import com.spring.fabric.dto.ProductDTO;
 import com.spring.fabric.model.Product;
 import com.spring.fabric.repository.ProductRepository;
 import com.spring.fabric.service.ProductService;
 import lombok.RequiredArgsConstructor;
+import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -11,24 +13,27 @@ import org.springframework.stereotype.Service;
 public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository productRepository;
+    private final ModelMapper modelMapper;
 
     @Override
-    public Product get(String id) {
+    public ProductDTO get(String id) {
         Product product = productRepository.get(id);
         if(product!=null){
-            return product;
+            return modelMapper.map(product,ProductDTO.class);
         }
         return null;
     }
 
     @Override
-    public Product create(Product product) {
-        return productRepository.create(product);
-
+    public ProductDTO create(ProductDTO productDTO) {
+        Product product=modelMapper.map(productDTO,Product.class);
+        product=productRepository.create(product);
+        return modelMapper.map(product,ProductDTO.class);
     }
 
     @Override
-    public Product update(String id, Product product) {
+    public ProductDTO update(String id, ProductDTO productDTO) {
+        Product product=modelMapper.map(productDTO,Product.class);
         Product updatedProduct = productRepository.get(id);
         if(updatedProduct!=null){
             updatedProduct.setName(product.getName());
@@ -36,7 +41,7 @@ public class ProductServiceImpl implements ProductService {
             updatedProduct.setPrice(product.getPrice());
             productRepository.update(updatedProduct);
         }
-        return updatedProduct;
+        return modelMapper.map(updatedProduct,ProductDTO.class);
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.spring.fabric.controller;
 
+import com.spring.fabric.dto.ProductDTO;
 import com.spring.fabric.model.Product;
 import com.spring.fabric.service.ProductService;
 import lombok.RequiredArgsConstructor;
@@ -15,21 +16,21 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<Product> get(@PathVariable String id) {
-        Product product=productService.get(id);
-        return ResponseEntity.ok(product);
+    public ResponseEntity<ProductDTO> get(@PathVariable String id) {
+        ProductDTO productDTO=productService.get(id);
+        return ResponseEntity.ok(productDTO);
     }
 
     @PostMapping
-    public ResponseEntity<Product> create(@RequestBody  Product product) {
-        Product createdProduct = productService.create(product);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdProduct);
+    public ResponseEntity<ProductDTO> create(@RequestBody ProductDTO productDTO) {
+        ProductDTO createdProductDTO = productService.create(productDTO);
+        return ResponseEntity.status(HttpStatus.CREATED).body(createdProductDTO);
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Product> update(@PathVariable String id,@RequestBody Product product) {
-       Product updatedProduct = productService.update(id,product);
-       return ResponseEntity.ok(updatedProduct);
+    public ResponseEntity<ProductDTO> update(@PathVariable String id,@RequestBody ProductDTO productDTO) {
+       ProductDTO updatedProductDTO = productService.update(id,productDTO);
+       return ResponseEntity.ok(updatedProductDTO);
     }
 
     @DeleteMapping("/{id}")
